@@ -8,7 +8,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 ```bash
-scrapy crawl images
+scrapy crawl images -a key=<GOOGLE_API_KEY> -a cx=<CUSTOM_SEARCH_ID>
 ```
 Wait for it...
   
